@@ -1,0 +1,12 @@
+.info {
+    
+}
+
+.info > img {
+    width: 100px;
+  height: 100px;
+}
+
+.gm-style .gm-style-iw-c {
+    box-shadow: none;
+}

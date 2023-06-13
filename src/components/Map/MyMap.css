@@ -1,0 +1,21 @@
+.gm-style .gm-style-iw-c {
+    box-shadow: none;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.legend {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.map {
+    width: 70%;
+    height: 700px;
+}
+
+@media screen and (max-width: 480px) {
+    .map {
+        width: 90%;
+    }
+}
