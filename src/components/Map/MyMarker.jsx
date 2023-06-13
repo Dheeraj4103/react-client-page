@@ -30,9 +30,9 @@ function MyMarker({ icons }) {
                         title={place.name}
                         icon={{
                             url: icons[place.type].icon,
-                            scaledSize: new window.google.maps.Size(25, 25)
+                            scaledSize: new window.google.maps.Size(30, 30)
                         }}
-                            // onMouseOver={() => setSelectedPlace(place)}
+                            onMouseOver={() => setSelectedPlace(place)}
                             onClick={() => setSelectedPlace(place)}
                             // onMouseOut={() => setSelectedPlace(null)}
                     />

@@ -23,6 +23,15 @@ const icons = {
   }
 }
 
+function Legends({product}) {
+  return (
+    <div>
+      <img src={product.icon} width="30px" height="30px"/>
+      {product.name}
+    </div>
+  );
+};
+
 function MyMap() {
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
@@ -44,7 +53,13 @@ function MyMap() {
         
       >
         <MyMarker icons={icons}></MyMarker>
-        <div className="legend">legend</div>
+        <div id="legend">
+          <h3>Legends</h3>
+          <Legends product={icons.Food_Processing} />
+          <Legends product={icons.Beverages} />
+          <Legends product={icons.Brewery} />
+          <Legends product={icons.Dairy} />
+        </div>
       </GoogleMap>
     </div>
   );
