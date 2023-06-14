@@ -15,11 +15,11 @@ const icons = {
   },
   Beverages: {
     name: "Beverages",
-    icon: "https://icon-library.com/images/drink-icon-png/drink-icon-png-0.jpg"
+    icon: "https://cdn-icons-png.flaticon.com/512/820/820603.png"
   },
   Dairy: {
     name: "Dairy",
-    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNXDZ9bdEu9ASJop2CfqCrFxTU4Ovj8iK8VQkjU54x824z9nrP88xRECyo7Eot-j-k_g&usqp=CAU"
+    icon: "https://cdn1.iconfinder.com/data/icons/waste-and-recycling-management-colored/130/Asset_252-512.png"
   }
 }
 

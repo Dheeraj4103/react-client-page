@@ -1,7 +1,7 @@
 {
   "name": "client-page",
   "version": "0.1.0",
-  "homepage": "https://github.com/Dheeraj4103/react-client-page",
+  "homepage": "https://dheeraj4103.github.io/react-client-page/",
   "private": true,
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.1",
