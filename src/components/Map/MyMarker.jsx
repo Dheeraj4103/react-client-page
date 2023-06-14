@@ -39,7 +39,7 @@ function MyMarker({ icons }) {
                     {
                             selectedPlace ? (
                                 <InfoWindow
-                                
+                                    
                                     position={{lat: selectedPlace.coordinates[0], lng: selectedPlace.coordinates[1]}}
                                     onCloseClick={() => setSelectedPlace(null)}
                                     

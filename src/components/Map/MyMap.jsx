@@ -7,7 +7,7 @@ import MyMarker from "./MyMarker";
 const icons = {
   Food_Processing: {
     name: "Food Processing",
-    icon: "https://cdn-icons-png.flaticon.com/512/6542/6542893.png"
+    icon: "https://cdn-icons-png.flaticon.com/512/5060/5060752.png"
   },
   Brewery: {
     name: "Brewery",
@@ -15,11 +15,11 @@ const icons = {
   },
   Beverages: {
     name: "Beverages",
-    icon: "https://cdn.iconscout.com/icon/premium/png-256-thumb/food-and-beverage-2520087-2113147.png"
+    icon: "https://icon-library.com/images/drink-icon-png/drink-icon-png-0.jpg"
   },
   Dairy: {
     name: "Dairy",
-    icon: "https://cdn-icons-png.flaticon.com/512/3050/3050158.png"
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNXDZ9bdEu9ASJop2CfqCrFxTU4Ovj8iK8VQkjU54x824z9nrP88xRECyo7Eot-j-k_g&usqp=CAU"
   }
 }
 
